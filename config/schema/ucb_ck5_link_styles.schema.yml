@@ -1,0 +1,30 @@
+ckeditor5.plugin.ucb_ck5_link_styles_linkStyles:
+  type: mapping
+  label: Link Styles
+  mapping:
+    styles:
+      type: sequence
+      label: 'Styles'
+      constraints:
+        UniqueLabelInList:
+          labelKey: label
+      sequence:
+        type: mapping
+        label: 'Link Style'
+        mapping:
+          label:
+            type: label
+            label: 'Link style label'
+          element:
+            type: ckeditor5.element
+            constraints:
+              CKEditor5Element:
+                requiredAttributes:
+                  -
+                    attributeName: class
+                    minAttributeValueCount: 1
+              StyleSensibleElement: []
+            label: 'Style tag + classes'
+          enabled:
+            type: boolean
+            label: 'Enabled'

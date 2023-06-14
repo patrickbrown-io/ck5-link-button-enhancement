@@ -1,0 +1,10 @@
+name: UCB CKEditor 5 Link Styles
+type: module
+description: Provides the ability to selected button styles for CK Links within CKEditor5
+package: CKEditor 5
+core_version_requirement: ^9.4 || ^10
+php: 8.0
+dependencies:
+  - drupal:ckeditor5
+  - drupal:editor
+

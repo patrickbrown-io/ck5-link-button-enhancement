@@ -1,0 +1,21 @@
+{
+    "name": "drupal/ucb_ck5_link_styles",
+    "description": "Provides the ability to select button styles for CK Links within CKEditor5.",
+    "type": "drupal-module",
+    "authors": [
+      {
+        "name": "Your Name",
+        "email": "your@email.com"
+      }
+    ],
+    "require": {
+      "composer/installers": "^1.7",
+      "drupal/core": "^9.0 || ^10.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "Drupal\\ucb_ck5_link_styles\\": "src/"
+      }
+    }
+  }
+  
